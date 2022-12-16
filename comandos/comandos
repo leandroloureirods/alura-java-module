@@ -1,16 +1,17 @@
 ##Compilar com classpath
-javac -d bin\ -cp bin 
-src\br\com\alura\modelo\dominio\Categoria.java 
-src\br\com\alura\modelo\dominio\Livro.java 
-src\br\com\alura\modelo\dominio\NotaFiscal.java 
-src\br\com\alura\http\dao\LivroDAO.java
-src\br\com\alura\nf\servico\NotaFiscalServico.java
-src\br\com\alura\nf\subscriber\NotaFiscalSubscriber.java
-src\br\com\alura\nf\util\NotaFiscalUtil.java
-src\br\com\alura\Principal.java
+javac -d target -cp target
+./src/main/java/br/com/alura/modelo/dominio/Categoria.java
+./src/main/java/br/com/alura/modelo/dominio/Categoria.java 
+./src/main/java/br/com/alura/modelo/dominio/Livro.java 
+./src/main/java/br/com/alura/modelo/dominio/NotaFiscal.java 
+./src/main/java/br/com/alura/http/dao/LivroDAO.java
+./src/main/java/br/com/alura/nf/servico/NotaFiscalServico.java
+./src/main/java/br/com/alura/nf/subscriber/NotaFiscalSubscriber.java
+./src/main/java/br/com/alura/nf/util/NotaFiscalUtil.java
+./src/main/java/br/com/alura/Principal.java
 
 ##Executar com classpath 
-java -cp bin br.com.alura.Principal
+java -cp target br.com.alura.Principal
 
 ##Compilar com module path
 javac -d mods\br.com.alura --module-path mods 
